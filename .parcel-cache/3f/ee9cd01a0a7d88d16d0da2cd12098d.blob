@@ -1,0 +1,22 @@
+window.dom = {
+  // 创建节点
+  create(string) {
+    const template = document.createElement("template");
+    template.innerHTML = string.trim();
+    return template.content.firstChild;
+  },
+  // 新增弟弟
+  after(node, node2) {
+    node.parentNode.insertBefore(node2, node.nextSibling);
+  },
+  // 新增哥哥
+  before(node, node2) {
+    node.parentNode.insertBefore(node2, node);
+  },
+  // 新增儿子
+  append(parent, node) {
+    parent.appendChild(node);
+  },
+  // 新增爸爸
+  wrap(node, parent) {},
+};

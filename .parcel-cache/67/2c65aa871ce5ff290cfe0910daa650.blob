@@ -1,0 +1,13 @@
+// document.createElement('div')
+const div1 = dom.create("<div>hi</div>");
+const div2 = dom.create("<div>hello</div>");
+console.log(div1);
+console.log(div2);
+
+dom.after(test, div1);
+dom.before(test, div2);
+
+const div3 = dom.create('<div id="parent"></div>');
+dom.wrap(test, div3);
+
+dom.empty(empty);

@@ -1,0 +1,11 @@
+10
+21E:\jirengu\dom-1\dist132654601843531039 1
+39E:\jirengu\dom-1\dist\index.bd78eeec.js132654601843441277 0
+43E:\jirengu\dom-1\dist\index.9b0ae0e5.js.map132654601843521141 0
+20E:\jirengu\dom-1\src132654330172009003 1
+27E:\jirengu\dom-1\src\dom.js132654601842159607 0
+31E:\jirengu\dom-1\src\index.html132654598320204850 0
+28E:\jirengu\dom-1\src\main.js132654601191014710 0
+43E:\jirengu\dom-1\dist\index.bd78eeec.js.map132654601843511090 0
+39E:\jirengu\dom-1\dist\index.9b0ae0e5.js132654601843451325 0
+32E:\jirengu\dom-1\dist\index.html132654601843441277 0

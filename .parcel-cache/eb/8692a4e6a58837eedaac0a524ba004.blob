@@ -1,0 +1,13 @@
+window.dom = {
+  create(string) {
+    const template = document.createElement("template");
+    template.innerHTML = string.trim();
+    return template.content.firstChild;
+  },
+  after(node, node2) {
+    node.parentNode.insertBefore(node2, node.nextSibling);
+  },
+  before(node, node2) {
+    node.parentNode.insertBefore(node2, node);
+  },
+};

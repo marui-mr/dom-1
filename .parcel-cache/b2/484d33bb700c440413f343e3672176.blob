@@ -1,0 +1,8 @@
+window.dom = {
+  create(string) {
+    const container = document.createElement("template");
+    container.innerHTML = string;
+    console.log(container);
+    return container.children[0];
+  },
+};
